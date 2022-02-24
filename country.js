@@ -43,7 +43,7 @@ const displayAllContries = countries => {
 const individualRegion = (country) => {
     document.getElementById(country+'-btn').addEventListener('click', () => {
         const allCountries = document.getElementById('display-countries')
-        allCountries.innerHTML = ''
+        allCountries.textContent = ''
         fetch(`https://restcountries.com/v2/region/${country}`)
         .then(res => res.json())
         .then(data => displayAsianCountries(data))
