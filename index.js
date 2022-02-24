@@ -22,7 +22,7 @@ const displayAllContries = countries => {
                     <h6><span class="fw-bold ms-2">${country.name}</span><h6>
                 </div>
                     <h6><span class="fw-bold">Capital: </span>${country.capital}<h6>
-                    <h6><span class="fw-bold">Area: </span>${country.area}<h6>
+                    <h6><span class="fw-bold">Area: </span>${country.area} km<sup>2</sup><h6>
                     <h6><span class="fw-bold">Calling code: </span>${country.callingCodes[0]}<h6>
                     <h6><span class="fw-bold">Timezone: </span>${country.timezones[0]}<h6>
                     <h6><span class="fw-bold">Population: </span>${country.population}<h6>
